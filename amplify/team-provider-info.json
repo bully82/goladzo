@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-goladzo-dev-121038-authRole",
+      "UnauthRoleArn": "arn:aws:iam::258208292471:role/amplify-goladzo-dev-121038-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::258208292471:role/amplify-goladzo-dev-121038-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-goladzo-dev-121038-deployment",
+      "UnauthRoleName": "amplify-goladzo-dev-121038-unauthRole",
+      "StackName": "amplify-goladzo-dev-121038",
+      "StackId": "arn:aws:cloudformation:us-east-1:258208292471:stack/amplify-goladzo-dev-121038/2a1a6cc0-cd2d-11ec-89f9-0a9cfd988151",
+      "AmplifyAppId": "dqnqbrjxyprqz"
+    },
+    "categories": {
+      "auth": {
+        "goladzofacd885e": {},
+        "true": {}
+      }
+    }
+  }
+}

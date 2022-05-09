@@ -1,0 +1,4 @@
+type Teams @model {
+  Id: ID!
+  Name: String!
+}
