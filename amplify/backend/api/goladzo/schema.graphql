@@ -1,4 +1,5 @@
-type Teams @model {
+type Leagues @model @auth(rules: [{allow: private}]) {
   Id: ID!
   Name: String!
 }
+ 

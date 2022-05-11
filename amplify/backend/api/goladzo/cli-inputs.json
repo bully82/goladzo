@@ -3,10 +3,25 @@
   "serviceConfiguration": {
     "apiName": "goladzo",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "C:\\Users\\graha\\Documents\\GOLADZO\\create-react-app\\goladzo\\amplify\\backend\\api\\goladzo\\schema.graphql",
+    "gqlSchemaPath": "/tmp/amplify-f27ff131-a392-4cbb-a737-ba9b517966bc/amplify/backend/api/goladzo/schema.graphql",
     "defaultAuthType": {
-      "mode": "AMAZON_COGNITO_USER_POOLS",
-      "cognitoUserPoolId": "authgoladzofacd885e"
-    }
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      },
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authgoladzofacd885e"
+      }
+    ]
   }
 }
