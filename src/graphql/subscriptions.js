@@ -1,36 +1,45 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreateTeams = /* GraphQL */ `
-  subscription OnCreateTeams {
-    onCreateTeams {
+export const onCreateLeagues = /* GraphQL */ `
+  subscription OnCreateLeagues {
+    onCreateLeagues {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;
-export const onUpdateTeams = /* GraphQL */ `
-  subscription OnUpdateTeams {
-    onUpdateTeams {
+export const onUpdateLeagues = /* GraphQL */ `
+  subscription OnUpdateLeagues {
+    onUpdateLeagues {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;
-export const onDeleteTeams = /* GraphQL */ `
-  subscription OnDeleteTeams {
-    onDeleteTeams {
+export const onDeleteLeagues = /* GraphQL */ `
+  subscription OnDeleteLeagues {
+    onDeleteLeagues {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;

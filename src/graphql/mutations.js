@@ -1,45 +1,54 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createTeams = /* GraphQL */ `
-  mutation CreateTeams(
-    $input: CreateTeamsInput!
-    $condition: ModelTeamsConditionInput
+export const createLeagues = /* GraphQL */ `
+  mutation CreateLeagues(
+    $input: CreateLeaguesInput!
+    $condition: ModelLeaguesConditionInput
   ) {
-    createTeams(input: $input, condition: $condition) {
+    createLeagues(input: $input, condition: $condition) {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;
-export const updateTeams = /* GraphQL */ `
-  mutation UpdateTeams(
-    $input: UpdateTeamsInput!
-    $condition: ModelTeamsConditionInput
+export const updateLeagues = /* GraphQL */ `
+  mutation UpdateLeagues(
+    $input: UpdateLeaguesInput!
+    $condition: ModelLeaguesConditionInput
   ) {
-    updateTeams(input: $input, condition: $condition) {
+    updateLeagues(input: $input, condition: $condition) {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;
-export const deleteTeams = /* GraphQL */ `
-  mutation DeleteTeams(
-    $input: DeleteTeamsInput!
-    $condition: ModelTeamsConditionInput
+export const deleteLeagues = /* GraphQL */ `
+  mutation DeleteLeagues(
+    $input: DeleteLeaguesInput!
+    $condition: ModelLeaguesConditionInput
   ) {
-    deleteTeams(input: $input, condition: $condition) {
+    deleteLeagues(input: $input, condition: $condition) {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;

@@ -12,9 +12,16 @@ export type AmplifyDependentResourcesAttributes = {
     },
     "api": {
         "goladzo": {
-            "GraphQLAPIKeyOutput": "string",
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
+        }
+    },
+    "function": {
+        "graphQlLambdaAuthorizer572ca95c": {
+            "Name": "string",
+            "Arn": "string",
+            "Region": "string",
+            "LambdaExecutionRole": "string"
         }
     }
 }

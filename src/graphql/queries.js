@@ -1,32 +1,67 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getTeams = /* GraphQL */ `
-  query GetTeams($id: ID!) {
-    getTeams(id: $id) {
+export const getLeagues = /* GraphQL */ `
+  query GetLeagues($id: ID!) {
+    getLeagues(id: $id) {
       Id
       Name
       id
       createdAt
       updatedAt
+      _version
+      _deleted
+      _lastChangedAt
     }
   }
 `;
-export const listTeams = /* GraphQL */ `
-  query ListTeams(
-    $filter: ModelTeamsFilterInput
+export const listLeagues = /* GraphQL */ `
+  query ListLeagues(
+    $filter: ModelLeaguesFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listTeams(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listLeagues(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         Id
         Name
         id
         createdAt
         updatedAt
+        _version
+        _deleted
+        _lastChangedAt
       }
       nextToken
+      startedAt
+    }
+  }
+`;
+export const syncLeagues = /* GraphQL */ `
+  query SyncLeagues(
+    $filter: ModelLeaguesFilterInput
+    $limit: Int
+    $nextToken: String
+    $lastSync: AWSTimestamp
+  ) {
+    syncLeagues(
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+      lastSync: $lastSync
+    ) {
+      items {
+        Id
+        Name
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+      }
+      nextToken
+      startedAt
     }
   }
 `;

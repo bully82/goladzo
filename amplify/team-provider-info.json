@@ -15,6 +15,12 @@
       "auth": {
         "goladzofacd885e": {},
         "true": {}
+      },
+      "function": {
+        "graphQlLambdaAuthorizer572ca95c": {
+          "deploymentBucketName": "amplify-goladzo-dev-121038-deployment",
+          "s3Key": "amplify-builds/graphQlLambdaAuthorizer572ca95c-42346d55396c7a6b6255-build.zip"
+        }
       }
     }
   }

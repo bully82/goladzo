@@ -6,6 +6,7 @@ import config from './aws-exports'
 import Amplify from 'aws-amplify';
 import {AmplifyProvider, useAmplify} from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
+
 Amplify.configure(config)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

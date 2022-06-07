@@ -1,26 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="bbc.co.uk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        
-        </a>
-      </header>
+    <div>
+      App
     </div>
   );
 }
 
-export default withAuthenticator();
+export default withAuthenticator(App,{ includegreeting:true});
+
+
