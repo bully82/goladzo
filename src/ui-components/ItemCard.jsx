@@ -36,7 +36,7 @@ export default function ItemCard(props) {
         lineHeight="12px"
         fontFamily="Inter"
         fontWeight="400"
-        color="rgba(255,255,255,1)"
+        color="rgba(13,26,38,1)"
         textAlign="left"
         size="small"
         variation="default"
