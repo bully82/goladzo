@@ -11,7 +11,7 @@ function App() {
       
       <NavBar width='100%'/>
       <SideBar fontFamily='sans-serif'/>
-
+<p>texterooony soccer soccer</p>
     </div>
   );
 }
