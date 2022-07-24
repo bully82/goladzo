@@ -23,5 +23,11 @@ export type AmplifyDependentResourcesAttributes = {
             "Region": "string",
             "LambdaExecutionRole": "string"
         }
+    },
+    "storage": {
+        "s3goladzostorage639be639": {
+            "BucketName": "string",
+            "Region": "string"
+        }
     }
 }

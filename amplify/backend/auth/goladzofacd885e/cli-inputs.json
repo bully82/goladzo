@@ -2,7 +2,7 @@
   "version": "1",
   "cognitoConfig": {
     "identityPoolName": "goladzofacd885e_identitypool_facd885e",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "goladzfacd885e",
     "userPoolName": "goladzofacd885e_userpool_facd885e",
     "autoVerifiedAttributes": [
