@@ -5,9 +5,12 @@
  **************************************************************************/
 
 import React from "react";
+import { Players } from "../models";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps } from "@aws-amplify/ui-react";
 export declare type ItemCardProps = React.PropsWithChildren<Partial<FlexProps> & {
+    players?: Players;
+} & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
 export default function ItemCard(props: ItemCardProps): React.ReactElement;

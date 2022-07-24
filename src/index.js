@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import config from './aws-exports'
 import Amplify from 'aws-amplify';
-import {AmplifyProvider, useAmplify} from '@aws-amplify/ui-react'
+import {AmplifyProvider} from "@aws-amplify/ui-react";
 import '@aws-amplify/ui-react/styles.css'
 import './fonts/F1.8-Regular.otf';
-    
+
+
 
 Amplify.configure(config)
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,5 +19,3 @@ root.render(
     </AmplifyProvider>
   </React.StrictMode>
 );
-
-

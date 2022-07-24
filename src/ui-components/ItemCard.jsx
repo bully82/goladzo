@@ -9,7 +9,7 @@ import React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Badge, Flex, Text } from "@aws-amplify/ui-react";
 export default function ItemCard(props) {
-  const { overrides, ...rest } = props;
+  const { players, overrides, ...rest } = props;
   return (
     <Flex
       gap="16px"

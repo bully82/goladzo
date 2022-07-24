@@ -1,3 +1,15 @@
+type Players @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  Teams: Teams @hasOne
+  Name: String
+}
+
+type Teams @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  Leagues: Leagues @hasOne
+  Name: String
+}
+
 type Leagues @model @auth(rules: [{allow: private}]) {
   Id: ID!
   Name: String!

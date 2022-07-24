@@ -177,7 +177,7 @@ export default function SideBar(props) {
                 ></Icon>
               </View>
               <Text
-                fontFamily="F1.8"
+                fontFamily="Inter"
                 fontSize="16px"
                 fontWeight="400"
                 color="rgba(13,26,38,1)"
@@ -205,9 +205,9 @@ export default function SideBar(props) {
             {...getOverrideProps(overrides, "Frame 32129767100")}
           >
             <Text
-              fontFamily="F1.8"
+              fontFamily="Inter"
               fontSize="16px"
-              fontWeight="400"
+              fontWeight="700"
               color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
